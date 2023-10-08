@@ -5,12 +5,13 @@ public class Main {
 
         int bonus;
         if (payammount >= 1000) {
-             bonus = payammount / 100;
-    } else {
-         bonus = 0;}
+            bonus = payammount / 100;
+        } else {
+            bonus = 0;
+        }
         int check = money + payammount + bonus;
         System.out.println(check);
 
     }
 
-       }
+}
